@@ -1,0 +1,44 @@
+//全局变量
+$love:deeppink;
+
+
+
+
+//代码片段
+@mixin border-radius($radius){
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  border-radius: $radius;
+}
+
+@mixin box-shadow($width,$height,$vague,$color){
+  -webkit-box-shadow: $width $height $vague $color;
+  -moz-box-shadow:$width $height $vague $color;
+  box-shadow:$width $height $vague $color;
+}
+
+@mixin abs-pos ($top: auto, $right: auto, $bottom: auto, $left: auto) {
+  position: absolute;
+  top: $top;
+  right: $right;
+  bottom: $bottom;
+  left: $left;
+}
+
+@mixin  user-select($select){
+  -webkit-user-select:$select;
+  -ms-user-select:$select;
+  user-select:$select;
+}
+
+
+@mixin clearfix() {
+  &:before,
+  &:after {
+    content: "";
+    display: table;
+  }
+  &:after {
+    clear: both;
+  }
+}
