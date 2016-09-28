@@ -1,7 +1,8 @@
 html {
   -webkit-user-select: none;
   -ms-user-select: none;
-  user-select: none; }
+  user-select: none;
+  background: #DCDCDC; }
 
 body {
   margin: 30px; }

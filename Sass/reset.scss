@@ -2,6 +2,7 @@
 
 html{
   @include user-select(none);
+  background: #DCDCDC;
 }
 body{
   margin: 30px;
