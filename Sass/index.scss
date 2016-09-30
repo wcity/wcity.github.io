@@ -1,0 +1,38 @@
+@import "all-var";
+
+.wrapper{
+  width: 100%;
+}
+.post{
+  margin: 0 auto;
+  width: 80%;
+  max-width: 710px;
+}
+.post-header{
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+.post-own{
+  margin-top: 12px;
+  height: 30px;
+  line-height: 30px;
+  color: $endColor;
+  .author-portrait{
+    width: 27px;
+    height: 27px;
+    border-radius: 100%;
+    vertical-align: middle;
+  }
+  a:hover{
+    text-decoration: underline;
+  }
+  .post-date{
+    border-left: 1px solid $endColor;
+  }
+
+}
+
+
+
+

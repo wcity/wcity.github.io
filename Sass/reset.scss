@@ -3,9 +3,11 @@
 html{
   @include user-select(none);
   background: #DCDCDC;
+
 }
 body{
   margin: 30px;
+
 }
 * {
   margin: 0;
@@ -57,9 +59,7 @@ button {
 li{
   list-style: none;
 }
-//测试代码
-.warp {
-  margin: 0 auto;
-  margin-top: 300px;
-  width: 400px;
+a{
+  text-decoration: none;
+  color: inherit;
 }
