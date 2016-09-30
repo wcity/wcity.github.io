@@ -1,14 +1,39 @@
+.author-profile {
+  margin: 0 auto;
+  padding-top: 60px;
+  width: 80%;
+  max-width: 710px;
+  text-align: center; }
+  .author-profile img {
+    width: 114px;
+    height: 114px;
+    border-radius: 50%; }
+  .author-profile .author-name {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 10px 0 20px; }
+  .author-profile .day-word {
+    font-size: 16px;
+    color: #50585D; }
+  .author-profile .essay-num {
+    text-align: right;
+    color: #9EABB3; }
+
 .wrapper {
   width: 100%; }
 
 .post {
-  margin: 0 auto;
+  margin: 48px auto;
   width: 80%;
-  max-width: 710px; }
+  max-width: 710px;
+  border-top: 1px solid #9EABB3; }
 
 .post-header {
-  font-size: 20px;
-  padding-bottom: 10px; }
+  padding: 50px 0 10px;
+  font-size: 32px; }
+  .post-header .post-title {
+    font-weight: bold;
+    color: #4A4A4A; }
 
 .post-own {
   margin-top: 12px;
@@ -23,6 +48,8 @@
   .post-own a:hover {
     text-decoration: underline; }
   .post-own .post-date {
+    margin-left: 10px;
+    padding-left: 10px;
     border-left: 1px solid #9EABB3; }
 
 /*# sourceMappingURL=index.css.map */

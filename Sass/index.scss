@@ -1,16 +1,50 @@
 @import "all-var";
 
+.author-profile {
+  margin: 0 auto;
+  padding-top: 60px;
+  width: 80%;
+  max-width: 710px;
+  text-align: center;
+  img {
+    width: 114px;
+    height: 114px;
+    border-radius: 50%;
+  }
+  .author-name{
+    font-size: 36px;
+    font-weight: bold;
+    margin: 10px 0 20px;
+  }
+  .day-word{
+    font-size: 16px;
+    color: #50585D;
+  }
+  .essay-num{
+    text-align: right;
+    color: $endColor;
+  }
+}
+
+
+
 .wrapper{
   width: 100%;
 }
 .post{
-  margin: 0 auto;
+  margin: 48px auto;
   width: 80%;
   max-width: 710px;
+  border-top: 1px solid $endColor;
 }
 .post-header{
-  font-size: 20px;
-  padding-bottom: 10px;
+  //border-top: 1px solid $endColor;
+  padding:50px 0 10px;
+  font-size: 32px;
+  .post-title{
+    font-weight: bold;
+    color: #4A4A4A;
+  }
 }
 
 .post-own{
@@ -28,6 +62,8 @@
     text-decoration: underline;
   }
   .post-date{
+    margin-left: 10px;
+    padding-left: 10px;
     border-left: 1px solid $endColor;
   }
 
