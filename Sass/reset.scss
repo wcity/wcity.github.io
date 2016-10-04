@@ -1,13 +1,17 @@
-@import "all-var";
+@import "total-var";
 
 * {
   margin: 0;
   padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 html{
   ::selection{
-    background: $endColor;
+    background: $love;
   }
+  background-color: $wholeColor;
   //@include user-select(none);
 }
 

@@ -1,7 +1,9 @@
 //全局变量
 $love:deeppink;
-$endColor:#9EABB3;
-
+$endColor:#eee;
+$wholeColor:#e0e0e0;
+$resumeAside:#00bfa5;
+$resumeExperience:#f0f2f1;
 
 
 //CSS片段
@@ -19,6 +21,21 @@ $endColor:#9EABB3;
 
 @mixin abs-pos ($top: auto, $right: auto, $bottom: auto, $left: auto) {
   position: absolute;
+  top: $top;
+  right: $right;
+  bottom: $bottom;
+  left: $left;
+}
+
+@mixin translate($top,$left){
+  -webkit-transform: translate($top,$left);
+  -moz-transform: translate($top,$left);
+  -ms-transform: translate($top,$left);
+  -o-transform: translate($top,$left);
+  transform: translate($top,$left);
+}
+@mixin fix-pos ($top: auto, $right: auto, $bottom: auto, $left: auto) {
+  position: fixed;
   top: $top;
   right: $right;
   bottom: $bottom;

@@ -1,0 +1,49 @@
+@import "total-var";
+
+
+.container{
+  margin: 10px auto 100px;
+  overflow: hidden;
+  width: 85%;
+  @include box-shadow(3px,3px,9px,rgba(0,0,0,.2))
+}
+.author{
+  float: left;
+  width: 27%;
+  padding: 15px 15px 10000px;
+  height: 1000px;
+  background-color: $resumeAside;
+  color: #fff;
+  .author-header{
+    margin-top: 35px;
+    line-height: 1.5;
+    text-align: center;
+    img{
+        display: inline-block;
+        width: 100px;
+        height: 100px;
+        @include border-radius(100%);
+    }
+    h1{
+      font-size: 28px;
+    }
+    h2{
+      font-size: 24px;
+    }
+  }
+
+
+}
+@media screen and(max-width:767px) {
+    .author{
+
+    }
+}
+
+.experience{
+  float: right;
+  width: 73%;
+  height: 1000px;
+  background-color: $resumeExperience;
+}
+

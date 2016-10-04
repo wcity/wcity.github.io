@@ -17,7 +17,7 @@
     color: #50585D; }
   .author-profile .essay-num {
     text-align: right;
-    color: #9EABB3; }
+    color: #eee; }
 
 .wrapper {
   width: 100%; }
@@ -26,7 +26,7 @@
   margin: 48px auto;
   width: 80%;
   max-width: 710px;
-  border-top: 1px solid #9EABB3; }
+  border-top: 1px solid #eee; }
 
 .post-header {
   padding: 50px 0 10px;
@@ -39,7 +39,7 @@
   margin-top: 12px;
   height: 30px;
   line-height: 30px;
-  color: #9EABB3; }
+  color: #eee; }
   .post-own .author-portrait {
     width: 27px;
     height: 27px;
@@ -50,6 +50,6 @@
   .post-own .post-date {
     margin-left: 10px;
     padding-left: 10px;
-    border-left: 1px solid #9EABB3; }
+    border-left: 1px solid #eee; }
 
 /*# sourceMappingURL=index.css.map */

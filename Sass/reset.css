@@ -1,9 +1,14 @@
 * {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
 
-html ::selection {
-  background: #9EABB3; }
+html {
+  background-color: #e0e0e0; }
+  html ::selection {
+    background: deeppink; }
 
 body {
   font: 16px "Microsoft YaHei"; }
